@@ -1,0 +1,12 @@
+[
+  {"q": "How soon will my money come back after I send the item back?", "source": "refunds"},
+  {"q": "Can my parcel be sent by express?", "source": "shipping"},
+  {"q": "I forgot my sign in details, how do I get back in?", "source": "accounts"},
+  {"q": "How do I end my subscription plan?", "source": "cancellations"},
+  {"q": "Do you accept bank transfers?", "source": "payments"},
+  {"q": "Where do I get a copy of my bill for an order?", "source": "payments"},
+  {"q": "Does your store sell gift cards?", "source": null},
+  {"q": "What time does your head office close on Fridays?", "source": null},
+  {"q": "Can you give me a discount code for my birthday?", "source": null},
+  {"q": "Do you ship to Mars?", "source": null}
+]

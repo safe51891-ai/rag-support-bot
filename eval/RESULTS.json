@@ -1,0 +1,34 @@
+TUNING SET (used while building the gate)
+{
+  "baseline": {
+    "hit_at_1": 0.895,
+    "hit_at_3": 0.895,
+    "mrr": 0.895,
+    "unanswerable_wrongly_answered": "1/11",
+    "answerable_wrongly_escalated": "5/19",
+    "wrongly_answered_examples": [
+      "Can I change my delivery address after the order is placed?"
+    ]
+  },
+  "improved": {
+    "hit_at_1": 0.895,
+    "hit_at_3": 0.947,
+    "mrr": 0.921,
+    "unanswerable_wrongly_answered": "1/11",
+    "answerable_wrongly_escalated": "3/19",
+    "wrongly_answered_examples": [
+      "Can I change my delivery address after the order is placed?"
+    ]
+  }
+}
+HELD-OUT SET (never used for tuning)
+{
+  "improved": {
+    "hit_at_1": 0.833,
+    "hit_at_3": 1.0,
+    "mrr": 0.917,
+    "unanswerable_wrongly_answered": "0/4",
+    "answerable_wrongly_escalated": "0/6",
+    "wrongly_answered_examples": []
+  }
+}
